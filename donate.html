@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wsparcie - Donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Wesprzyj Nasz Serwer Minecraft</h1>
+        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="about.html">O Serwerze</a>
+            <a href="shop.html">Sklep</a>
+            <a href="donate.html" class="active">Donate</a>
+        </nav>
+    </header>
+
+    <section class="donate-info">
+        <h2 class="animate-text">Jak Możesz Nas Wesprzeć?</h2>
+        <p class="animate-text">Twoje wsparcie pozwala nam utrzymać i rozwijać serwer. Dzięki Tobie możemy zapewnić lepszą jakość rozgrywki i wprowadzać nowe funkcje! 🤩</p>
+        <p class="animate-text">Wybierz jedną z poniższych opcji, aby wspomóc nasz projekt:</p>
+    </section>
+
+    <section class="donate-options">
+        <div class="donate-option animate-fade">
+            <h3>Dotacja Jednorazowa 💸</h3>
+            <p>Przekaż dowolną kwotę jednorazowo na rozwój serwera. Twoje wsparcie pomoże nam na przykład w opłaceniu hostingu, zakupu nowych pluginów, czy dodaniu nowych funkcji.</p>
+            <button class="donate-btn" onclick="window.location.href='https://tipply.pl/@strzelec_tom'">Przekaż Dotację</button>
+        </div>
+        <div class="donate-option animate-fade">
+            <h3>Dotacja Cyfrowa 📲</h3>
+            <p>Jeśli wolisz zautomatyzowane wsparcie, wybierz dotację cyfrową, która pozwoli Ci płacić regularnie co miesiąc. Dodatkowo, otrzymasz ekskluzywne nagrody!</p>
+            <button class="donate-btn" onclick="window.location.href='https://tipply.pl/@strzelec_tom'">Wybierz Dotację Cyfrową</button>
+        </div>
+        <div class="donate-option animate-fade">
+            <h3>Dotacja Związana z Nagródami 🎁</h3>
+            <p>Za większą dotację możesz otrzymać ekskluzywne nagrody, takie jak specjalne rangowanie na serwerze, unikalne skórki, lub inne bonusy!</p>
+            <button class="donate-btn" onclick="window.location.href='https://tipply.pl/@strzelec_tom'">Wybierz Nagródki</button>
+        </div>
+    </section>
+
+    <section class="payment-methods">
+        <h2>Dostępne Metody Płatności</h2>
+        <ul>
+            <li>💳 Karta Kredytowa/Debetowa</li>
+            <li>💸 PayPal</li>
+            <li>💰 Przelew Bankowy</li>
+            <li>📱 BLIK</li>
+        </ul>
+    </section>
+
+    <section class="additional-info">
+        <h2>Dlaczego Warto Nas Wesprzeć?</h2>
+        <p>Twoje wsparcie to nie tylko pomoc, ale także inwestycja w rozwój serwera, który dostarcza godziny świetnej zabawy! 💖</p>
+        <ul>
+            <li>✔️ Utrzymanie serwera 24/7</li>
+            <li>✔️ Nowe funkcje i pluginy</li>
+            <li>✔️ Mniejsze opóźnienia i lepsza jakość gry</li>
+            <li>✔️ Społeczność, która kocha grać razem</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GufcioMC - Wszelkie prawa zastrzeżone</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.donate-option button').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Dziękujemy za Twoje wsparcie! Zostaniesz przekierowany do systemu płatności.');
+            });
+        });
+    </script>
+</body>
+</html>

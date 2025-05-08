@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja - GufcioMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎮 GufcioMC - Rejestracja 📝</h1>
+    </header>
+
+    <section class="registration">
+        <h2>Stwórz konto 📝</h2>
+        <form action="register.php" method="POST">
+            <label for="username">Nazwa użytkownika: </label>
+            <input type="text" id="username" name="username" required placeholder="Wpisz nazwę użytkownika">
+
+            <label for="email">Adres e-mail: </label>
+            <input type="email" id="email" name="email" required placeholder="Wpisz adres e-mail">
+
+            <label for="password">Hasło: </label>
+            <input type="password" id="password" name="password" required placeholder="Wpisz swoje hasło">
+
+            <label for="confirm_password">Potwierdź hasło: </label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="Potwierdź swoje hasło">
+
+            <button type="submit">Zarejestruj się 🔑</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GufcioMC. Wszystkie prawa zastrzeżone. 🌍</p>
+    </footer>
+</body>
+</html>
